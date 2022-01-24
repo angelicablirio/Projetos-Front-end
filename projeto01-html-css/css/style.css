@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+:root{
+
+    --fonte1: Verdana, Geneva, Tahoma, sans-serif;
+    --fonte2:'Secular One', sans-serif;
+    --fonte3: 'Sriracha', cursive;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html, body{
+    background-color: darkgray;
+    font-family: var(--fonte1);
+    min-height: 100vh;
+}
+
+header{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+header > h1{
+    font-family: var(--fonte2);
+    font-size: 60px;
+    font-variant: small-caps;
+    padding-top: 50px;
+}
+
+header > p{
+    padding-bottom: 50px;
+}
+
+header a, footer a{
+    color: white;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+header a:hover, footer a:hover{
+    text-decoration: underline;
+}
+
+section{
+    font-family: var(--fonte3);
+    font-size: 28px;
+    line-height: 2em;
+    padding-bottom: 10vh;
+    padding-left: 30px;
+    padding-top: 10vh;
+}
+
+section > p{
+    padding-bottom: 2em;
+}
+
+section.normal{
+    background-color: white;
+    color: black;
+}
+
+section.imagem{
+    background-attachment: fixed;
+    background-color: #302d2d;
+    background-position: right center;
+    background-size: cover;
+    box-shadow: inset 6px 6px 13px 0 rgba(0, 0, 0, 0.425);
+    color: white;
+
+}
+
+section.imagem > p{
+    background-color: rgba(0, 0, 0, 0.425);
+    max-width: 500px;
+    padding: 10px;
+    text-shadow: 1px 1px 0 black;
+}
+
+section#img01{
+    background-image: url('../img/background001.jpg');
+}
+
+section#img02{
+    background-image: url('../img/background002.jpg');
+}
+
+footer{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    text-align: center;
+
+}
+
+/* Media queries */
+
+@media (max-width: 700px) {
+
+    header > h1{
+        font-size: 50px;
+    }
+
+    section{
+        font-size: 24px;
+    }
+
+}
+
+@media (max-width: 500px) {
+
+    header > h1{
+        font-size: 40px;
+    }
+
+    section{
+        font-size: 20px;
+    }
+
+}

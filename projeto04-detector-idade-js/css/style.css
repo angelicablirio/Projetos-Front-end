@@ -1,0 +1,43 @@
+body{
+
+    background-color: #3d83ec;
+    font: normal 15pt Arial;
+
+}
+
+header{
+
+    color: white;
+    text-align: center;
+
+}
+
+section{
+
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    width: 500px;
+    margin:auto;
+    box-shadow: 3px 3px 10px #0000002f;
+
+}
+
+#botao {
+    text-align: center;
+
+}
+
+.botaoVerificar{
+    background-color: #b94f6f;
+    color: white;
+    font-size: 18px;
+    padding: 5px 20px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.botaoVerificar:hover{
+    background-color: #723446;
+}
