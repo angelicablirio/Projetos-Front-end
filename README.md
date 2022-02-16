@@ -8,4 +8,4 @@ Repositório com os projetos de front-end desenvolvidos, abaixo estão os links 
 
 <a href="https://angelicablirio.github.io/Projetos-Front-end/projeto04-detector-idade-js" target="_blank">Projeto04</a> - Aplicação construída com JavaScript que mostra a idade da pessoa e referencia com uma foto.
 
-<a href="https://angelicablirio.github.io/Projetos-Front-end/projeto05-lista-tarefa-js" target="_blank">Projeto05</a> - Aplicação construída com JavaScript que lista as tarefas, com possibilidade de excluir e marcar como realizada.
+<a href="https://angelicablirio.github.io/Projetos-Front-end/projeto05-lista-tarefas-js" target="_blank">Projeto05</a> - Aplicação construída com JavaScript que lista as tarefas, com possibilidade de excluir e marcar como realizada.
